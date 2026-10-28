@@ -1,0 +1,12 @@
+{
+  "name": "retardados-royale-multiplayer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "server:install": "npm --prefix server install",
+    "server:dev": "npm --prefix server run dev",
+    "server:start": "npm --prefix server start",
+    "test:arena": "node ./server/test/arena-layout.test.js",
+    "test:integration": "npm --prefix server run test:integration"
+  }
+}
